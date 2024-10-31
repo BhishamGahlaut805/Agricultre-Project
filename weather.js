@@ -105,7 +105,7 @@ function getCardinalDirection(deg) {
     }
 }
 async function data_weather(city) {
-    const KEY = "2b0d2611a41f0127715cfef77b8c353a";
+    const KEY = "KEY1";
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${KEY}`);
         const data = await response.json();
@@ -178,7 +178,7 @@ async function data_weather(city) {
 }
 
 async function chancesofrain(city) {
-    const apiKey = '2b0d2611a41f0127715cfef77b8c353a';
+    const apiKey = 'KEY2';
     const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
 
     try {
@@ -273,7 +273,7 @@ function fetchSeasonal(city1) {
 }
 
 async function fetchFutureWeather_hour(city1) {
-    const apiKey = '2b0d2611a41f0127715cfef77b8c353a';
+    const apiKey = 'KEY3';
     const url = `https://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(city1)}&limit=1&appid=${apiKey}`;
 
     try {
@@ -325,7 +325,7 @@ async function fetchFutureWeather_hour(city1) {
 }
 
 async function fetchFutureWeather_daily(city1) {
-    const apiKey = '2b0d2611a41f0127715cfef77b8c353a';
+    const apiKey = 'KEY4';
     const url = `http://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(city1)}&limit=1&appid=${apiKey}`;
 
     try {
@@ -380,7 +380,7 @@ async function fetchFutureWeather_daily(city1) {
 }
 
 async function fetchSeasonalWeather(city1) {
-    const apiKey = '2b0d2611a41f0127715cfef77b8c353a';
+    const apiKey = 'KEY5';
     const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(city1)}&limit=1&appid=${apiKey}`;
 
     try {

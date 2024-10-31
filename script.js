@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //AQI DATA
 // Replace 'YOUR_API_KEY' with your actual API key from AQICN
-const apiKey = '6ace2052f7d87864c729f3ee47b1b8b27b7988d3';
+const apiKey = 'KEY7';
 
 // Function to fetch AQI data
 async function getAQI(city) {

@@ -59,7 +59,7 @@ async function opencontent() {
 document.querySelector("#s-submit").addEventListener("click", opencontent);
 
 async function fetchSoilData(latitude, longitude) {
-    const apiKey = 'bfb144a31f7651298843a72850555743';
+    const apiKey = 'KEY6';
     const soilUrl = `http://api.agromonitoring.com/agro/1.0/soil?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
 
     try {
