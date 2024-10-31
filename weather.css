@@ -1,0 +1,415 @@
+/* Weather */
+.weather {
+width: 100%;
+height: 100%;
+background-color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+margin:auto;
+transform: translate(-50%, -50%) scale(0);
+transition: transform 0.5s ease;
+z-index:20;
+
+}
+
+.show {
+    transform: translate(-50%, -50%) scale(1);
+}
+.vis-show{
+    visibility: visible;
+}
+.vis-hidden{
+    visibility: hidden;
+}
+#h1{
+    display: flex;
+    background-color:#0a3284;
+    justify-content: center;
+    font-weight:900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+}
+#curr,#exit_weather,#fut{
+        display: flex;
+        background-color:#00246B;
+        border-radius: 10px;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:normal;
+        color: white;
+        font-size:25px;
+        width:300px;
+        line-height:50px;
+        font-weight:bold;
+}
+.weather_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: #00246B; */
+    height:50px;
+    margin-top:20px;
+    row-gap:70px;
+
+
+}
+.w1{
+    display: flex;
+    height:100px;
+}
+button{
+    width:150px;
+    font-weight:bold;
+    height:50px;
+    margin-left:30px;
+}
+
+.input-city{
+    display: inline-flex;
+    border:2px,solid grey;
+    height: 50px;
+    width:400px;
+    margin-left:100px;
+    margin-bottom:30px;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight:bold;
+}
+.weather-box{
+    height:1150px;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00246B;
+    border-radius:10px;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index:20;
+}
+
+.w{
+    display:flex;
+    flex-direction: column;
+}
+.sub{
+   display:flex;
+   margin-top:60px;
+   position:absolute;
+   flex-direction: row;
+}
+.inf{
+    display: flex;
+    background-color: white;
+    height:1130px;
+    width:780px;
+    border-radius:10px;
+    color:black;
+    justify-content: center;
+    border-radius:10px;
+    flex-direction: column;
+    column-gap: 20px;
+    z-index:20;
+}
+
+#city_head{
+    font-size:60px;
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 0, 0);
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.temp_box{
+    color:black;
+    font-size:50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#feelslike{
+font-size: 25px;
+    font-weight: bold;
+    color: rgb(222, 6, 6);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#des-img{
+    height:150px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.clear{
+
+    border: 1px solid gray;
+    background-image: url("images_icons/clear.png");
+    background-size: cover;
+}
+.rain {
+
+    border: 1px solid gray;
+    background-image: url("images_icons/rain.png");
+    background-size: cover;
+}
+.snow {
+
+    border: 1px solid gray;
+    background-image: url("images_icons/snow.png");
+    background-size: cover;
+}
+.cloud{
+    border: 1px solid gray;
+        background-image: url("images_icons/cloud.png");
+        background-size: cover;
+}
+.mist {
+    border: 1px solid gray;
+    background-image: url("images_icons/mist.png");
+    background-size: cover;
+}
+.haze {
+    border: 1px solid gray;
+    background-image: url("images_icons/haze.png");
+    background-size: cover;
+}
+
+#details{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+#humidity,#visibility,#sunrise,#sunset,#cloud,#r_chance{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+}
+.wind{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#wind_s,
+#wind_dir{
+    font-size: 25px;
+        font-weight: bold;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+}
+.rain1
+{
+    font-size: 25px;
+        font-weight: bold;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+}
+.snow1{
+    font-size: 25px;
+        font-weight: bold;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+}
+
+#description{
+    font-size: 25px;
+        font-weight: bold;
+        color: rgb(100, 10, 10);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+}
+#sun{
+    display:flex;
+   justify-content: space-evenly;
+   margin-bottom:30px;
+}
+#sun-img{
+    width:50px;
+    height:50px;
+    background-image: url("images_icons/sunrise.png");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+#set-img {
+    width: 50px;
+    height: 50px;
+    background-image: url("images_icons/night.png");
+    background-size: cover;
+    /* mix-blend-mode: multiply; */
+    border-radius: 50%;
+
+
+}
+
+#temp {
+    font-size: 60px;
+    font-weight: 900;
+    color:rgb(107, 13, 13);
+    display: flex;
+    justify-content: space-evenly;
+}
+#high,
+#low{
+    font-size: 25px;
+        font-weight: bold;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 800;
+}
+#h-img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image: url("images_icons/humidity.png");
+    background-size: cover;
+}
+#v-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("images_icons/visible.png");
+    background-size: cover;
+}
+#w-img{
+    height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url("images_icons/wind.png");
+        background-size: cover;
+}
+#r-img{
+    height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url("images_icons/rain.png");
+        background-size: cover;
+}
+#s-img{
+    height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url("images_icons/snow.png");
+        background-size: cover;
+}
+#cloud-img{
+    height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url("images_icons/cloud.png");
+        background-size: cover;
+}
+
+/* FUTURE WEATHER FORECAST */
+.fut-box{
+        height:fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:2px solid #00246B;
+        border-radius: 10px;
+        margin-top: 100px;
+        position: absolute;
+        top:125px;
+        width:100%;
+
+}
+
+#f-inf{
+        display: flex;
+        background-color: white;
+        height: fit-content;
+        width:fit-content;
+        border-radius: 10px;
+        color: black;
+        justify-content: center;
+        border-radius: 10px;
+        flex-direction: column;
+        column-gap: 20px;
+}
+
+#f-city{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px, solid grey;
+    height: 50px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#f-submit,#f-exit{
+    display:flex;
+    justify-content: center;
+    font-size:50px;
+
+}
+#f-btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+/* Weather Table */
+#w-table{
+    display: flex;
+    justify-content: center;
+
+}
+#weather-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+#weather-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#weather-table th,
+#weather-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+#weather-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#weather-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#weather-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+#weather-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+

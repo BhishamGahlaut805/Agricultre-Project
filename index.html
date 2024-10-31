@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="soil.css">
+    <title>Agriculture</title>
+</head>
+
+<body>
+    <img id="Background-img" src="images_icons\bg1.png" alt="none">
+    <div id="body_outer">
+        <div id="head_contain">
+            <div class="heading"><span class="Original">Agriculture: Integrating Weather, Soil, and Crop Data for
+                    Optimal Farming</span>
+                <span class="animation-text" id="text1">Agriculture: Integrating Weather, Soil, and Crop Data for
+                    Optimal Farming</span>
+                <span class="animation-text" id="text2">Smart Farming with Real-Time Data Analysis</span> <span
+                    class="animation-text" id="text3">Upcoming Weather details and Future Forecasts!!</span> <span
+                    class="animation-text" id="text4">Analysis of Crops based on dataset</span> <span
+                    class="animation-text" id="text5">Feature for environment details and Community Engagement
+            </div>
+            <div class="nav">
+                <div class="nav1" id="Weather_Details">Upcoming Weather Details</div>
+                <div class="nav1" id="Crop_details">Soil Information</div>
+                <div class="nav1" id="Crops_Analysis">All Crops Analysis</div>
+                <div class="nav1" id="Environment">Environmental Details</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Soil -->
+    <div class="soil">
+        <div id="h-soil">
+            <h1>This Page Gives The Soil Details</h1>
+        </div>
+        <div>
+            <h2>Enter your Location in form of Latitude and Longitudes to get Soil Information</h2>
+        </div>
+        <div id="s-btns">
+            <div id="b1"><button>Basic Soil Details</button></div>
+            <div id="b2"><button>Farm Details</button></div>
+            <div id="b3"><button>Exit</button></div>
+        </div>
+
+        <div class="latlong">
+            <div id="latitude"><input type="text" name="latitude" id="lat" placeholder="Enter Latitude in degrees...">
+            </div>
+            <div id="longitude"><input type="text" name="longitude" id="long"
+                    placeholder="Enter Longitude in degrees..."></div>
+            <div class="soil-btn">
+                <div id="s-submit"><button id="soil-submit">Submit</button></div>
+                <div id="s-exit"><button id="soil-exit">Exit</button></div>
+            </div>
+        </div>
+        <div class="soil-content">
+            <div class="soil-con">
+                <div id="date-soil"></div>
+                <div id="moisture"></div>
+                <div id="t0"></div>
+                <div id="t10"></div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Main code for environmental details -->
+    <div id="envirinf" class="envirinf">
+        <div class="heading">This Page Gives Environmental Details</div>
+        <div class="btns">
+            <div id="basic_En">Environment Details</div>
+            <div id="Community">Community Engagement</div>
+            <div id="exit">Exit</div>
+        </div>
+
+        <!-- Main code for AQI -->
+
+        <div id="aqi">
+            <div id="aqi-details">
+                <div class="input-box11">
+                    <input type="text" placeholder="Enter Your City" id="input-city-aqi" value="">
+                </div>
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
+                <div class="exit-button">
+                    <button type="button">Exit</button>
+                </div>
+            </div>
+            <div id="main-aqi-details">
+                <div id="city-inf-aqi"></div>
+                <div id="aqi-gauge">
+                    <div id="aqidetails" class="aqi11"></div>
+                    <canvas id="aqiGauge" width="300" height="300"></canvas>
+                </div>
+                <div id="pm">
+                    <div id="pm10" class="aqi11"></div>
+                    <div id="pm25" class="aqi11"></div>
+                </div>
+                <div id="gases">
+                    <div id="o3" class="aqi11"></div>
+                    <div id="No2" class="aqi11"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Code for Community Engagement -->
+        <div class="Community-page">
+            <div id="community-inf">Welcome To The Community</div>
+            <div id="exit-community"><button>Exit</button></div>
+            <div id="trees">
+                <div id="Total_planted">...</div>
+                <div id="planted_inf">Total Trees Planted By Our Initiatives</div>
+            </div>
+            <div id="guidelines">
+                <div id="g1">
+                    <div class="guide-head">Community Guidelines</div>
+                    <p class="guide-inf">
+                        Our community platform encourages members to share details about upcoming environmental
+                        activities, such as tree
+                        plantation events. To ensure a positive experience for all, please adhere to the following
+                        guidelines:
+                        <br>
+                        <span class="high-light_">Relevance:</span> Only post information related to environmental
+                        activities. <br>
+                        <span class="high-light_">Accuracy:</span> Provide clear and accurate details, including date,
+                        time, and location.<br>
+                        <span class="high-light_">Respect:</span> Be respectful and considerate in your posts and
+                        interactions.<br>
+                        <span class="high-light_">Safety:</span> Ensure that all activities comply with local safety
+                        regulations.<br>
+                        <span class="high-light_">Updates:</span> Regularly update your posts with any changes or
+                        additional information.<br>
+                        All posts will be displayed on our community webpage for easy access and visibility.
+                    </p>
+                </div>
+                <div id="g2">
+                    <div class="guide-head">How to Use This Community</div>
+                    Our community platform is dedicated to promoting environmental activities. Members can easily post
+                    details about
+                    upcoming events, such as tree plantations. To participate, simply:<br>
+                    <span class="high-light_"> Post Event Details:</span> Share information about your event, including
+                    date, time, and location.<br>
+                    <span class="high-light_">Engage with Others:</span> Comment on and discuss posts to connect with
+                    fellow enthusiasts.<br>
+                    <span class="high-light_"> Share Your Experience:</span> After participating in an event, upload
+                    pictures and share your experiences to inspire others.<br>
+                    All posts will be displayed on our community webpage, making it easy for everyone to stay informed
+                    and involved. Let's
+                    work together to make a positive impact on our environment!
+                </div>
+                <p class="guide-inf">
+
+                </p>
+            </div>
+
+            <div id="display-divs">
+                <div id="div11">
+
+                    <div id="div11-title">Our Success Stories...</div>
+
+                </div>
+                <div id="div22">
+                    <div id="div22-title">Upcoming Events...</div>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- Input-forms -->
+            </div>
+            <div id="comm-form">
+                <div id="f1">
+                    <form id="form11">
+                        <div class="form-group">
+                            Upload Details for Success Stories
+                            <br><br>
+                            <label for="image11">Upload Image of Event</label>
+                            <input type="file" id="image11" accept="image/*" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="info11">Information of The Event</label>
+                            <textarea id="info11" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="date11">Today's Date:</label>
+                            <input type="date" id="date11" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username11">Username:</label>
+                            <input type="text" id="username11" required>
+                        </div>
+                        <button type="submit">Save to Stories</button>
+                    </form>
+                </div>
+                <div id="f2">
+                    <form id="form22">
+                        <div class="form-group">
+                            Upload Details for Upcoming Events
+                            <br><br>
+                            <label for="image22">Upload Image of Event</label>
+                            <input type="file" id="image22" accept="image/*" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="info22">Information of The Event</label>
+                            <textarea id="info22" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="date22">Today's Date</label>
+                            <input type="date" id="date22" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username22">Username:</label>
+                            <input type="text" id="username22" required>
+                        </div>
+                        <button type="submit">Save to Upcoming Events</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main HTML code for Weather Forecasting -->
+    <div class="weather">
+        <div id="h1">
+            <h1>This Page Gives The Current and Future Weather Details</h1>
+        </div>
+        <div class="w">
+            <div class="weather_btns">
+                <div class="w1"><button id="curr">Check Current Weather</button></div>
+                <div class="w1"><button id="fut">Check Future Weather</button></div>
+                <div class="w1"><button id="exit_weather">Exit</button></div>
+                <div class="sub"></div>
+                <div class="exit-btn"></div>
+                <div class="sub1"></div>
+                <div class="exit-btn1"></div>
+            </div>
+        </div>
+
+        <!-- weather_details -->
+        <div class="weather-box">
+            <div class="inf">
+                <div id="city_head"></div>
+                <div id="sun">
+                    <div id="sunrise"></div>
+                    <div id="sun-img"></div>
+                    <div id="sunset"></div>
+                    <div id="set-img"></div>
+                </div>
+
+                <div class="temp_box">
+                    <div id="temp"></div>
+                    <div id="high"></div>
+                    <div id="low"></div>
+                </div>
+                <div id="details">
+                    <div id="feelslike"></div>
+                    <div id="des-img"></div>
+                    <div id="description"></div>
+
+                    <div id="humidity"></div>
+                    <div id="visibility"></div>
+                    <div class="wind">
+                        <div id="wind_s"></div>
+                        <div id="wind_dir"></div>
+                    </div>
+                    <div id="cloud"></div>
+                    <div id="r_chance"></div>
+                    <div class="rain1">
+                        <div id="r1"></div>
+                        <div id="r3"></div>
+                    </div>
+                    <div class="snow1">
+                        <div id="s1"></div>
+                        <div id="s3"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- //Future Weather Details -->
+
+        <div class="fut-box">
+            <div id="f-inf">
+                <div id="f-btns">
+                    <button type="button" id="hourly" class="fut-b">Hourly Forecast for 7 days</button>
+                    <button type="button" id="daily" class="fut-b">Daily Forecast for 16 days</button>
+                    <button type="button" id="Seasonal" class="fut-b">Seasonal Forecast</button>
+
+                </div>
+                <div id="w-table">
+                    <table id="weather-table">
+
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Temperature (°C)</th>
+                                <th>Sunrise</th>
+                                <th>Sunset</th>
+                                <th>Wind Direction</th>
+                                <th>Wind Speed (m/s)</th>
+                                <th>Cloud Cover %</th>
+                                <th>Chance of Rain %</th>
+                                <th>Rain (mm)</th>
+                                <th>Snow (mm)</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Weather data will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Main code for All Crops Analysis -->
+    <div class="cropAnalyse">
+        <div id="Crop">
+            <div id="heading-analysis">
+                <h1>Data-Driven Crop Recommendations and Environmental Analysis</h1>
+            </div>
+            <div id="analysis-exit"><button>Exit</button></div>
+            <div class="content">
+                <h1>Crop Recommendation Dataset Analysis Report</h1>
+
+                <h2>Introduction</h2>
+                <pre>
+                In modern agriculture, leveraging data-driven approaches for precise crop recommendations is essential to ensure optimal
+                yield and sustainability. This report presents an analysis of a comprehensive dataset containing soil composition and
+                environmental variables, including Nitrogen, Phosphorus, Potassium levels, Temperature, Humidity, pH_Value, and
+                Rainfall. Understanding these factors helps in making informed decisions to enhance agricultural productivity, resource
+                management, and overall crop health.
+                </pre>
+
+                <h2>Dataset Overview</h2>
+                <pre>
+                The dataset comprises 2200 entries with the following columns:
+                - <span class="highlight">Nitrogen</span>: Nitrogen level in the soil
+                - <span class="highlight">Phosphorus</span>: Phosphorus level in the soil
+                - <span class="highlight">Potassium</span>: Potassium level in the soil
+                - <span class="highlight">Temperature</span>: Temperature in Celsius
+                - <span class="highlight">Humidity</span>: Humidity percentage
+                - <span class="highlight">pH_Value</span>: pH value of the soil
+                - <span class="highlight">Rainfall</span>: Rainfall in mm
+                - <span class="highlight">Crop</span>: Type of crop
+                </pre>
+
+                <h2>Visualizations and Insights</h2>
+                <pre>
+                1. <span class="highlight">Distribution of Nitrogen Levels Across Different Crops</span>
+                - A box plot shows the spread and central tendency of nitrogen levels for various crops, highlighting differences in
+                nutrient requirements.
+
+                2. <span class="highlight">Temperature vs. Humidity Colored by Crop</span>
+                - A scatter plot demonstrates the relationship between temperature and humidity, revealing clustering patterns for
+                different crops.
+
+                3. <span class="highlight">Heatmap of the Correlation Matrix</span>
+                - A heatmap illustrates the correlations among numerical variables, providing insights into how these factors
+                interrelate. Notably, strong correlations help in understanding key dependencies.
+
+                4. <span class="highlight">Pair Plot of All Numerical Features Colored by Crop</span>
+                - This pair plot reveals pairwise relationships and distributions of numerical features, aiding in the identification of
+                patterns and outliers.
+
+                5. <span class="highlight">Distribution of pH Values Across Different Crops</span>
+                - A violin plot shows the distribution and density of pH values, indicating optimal pH ranges for different crops.
+
+                6. <span class="highlight">Average Nutrient Levels (N, P, K) for Each Crop</span>
+                - A bar plot compares the average levels of nitrogen, phosphorus, and potassium for each crop, highlighting specific
+                nutrient requirements.
+
+                7. <span class="highlight">Distribution of Rainfall Across Different Crops</span>
+                - A box plot compares the rainfall distribution, showing which crops require more or less water.
+
+                8. <span class="highlight">Temperature Distribution</span>
+                - A histogram depicts the overall temperature distribution in the dataset, providing an overview of the climatic
+                conditions.
+
+                9. <span class="highlight">Average Temperature and Humidity for Each Crop</span>
+                - Line plots show average temperature and humidity for each crop, aiding in understanding the environmental preferences
+                of different crops.
+
+                10. <span class="highlight">Swarm Plot of Potassium Levels Across Different Crops</span>
+                - A swarm plot visualizes the distribution of potassium levels, showing the spread and concentration for each crop.
+
+
+                11. <span class="highlight">Distribution of Phosphorus Levels Across Different Crops</span>
+                - A box plot shows the spread and central tendency of phosphorus levels for various crops, highlighting differences in
+                nutrient requirements.
+                 </pre>
+                <h2>Conclusion</h2>
+                <pre>
+                The analysis of the Crop Recommendation dataset highlights the importance of understanding soil and environmental
+                variables in making informed crop recommendations. By leveraging data visualizations, we can identify key patterns,
+                correlations, and optimal conditions for different crops, which can significantly enhance agricultural productivity,
+                resource management, sustainability, climate resilience, and profitability. These insights are pivotal for farmers and
+                agricultural experts to make data-driven decisions, paving the way for a more efficient and sustainable agricultural
+                future.
+                </pre>
+            </div>
+        </div>
+
+
+        <div class="figs">
+            <div id="fig1"></div>
+            <div id="fig2"></div>
+            <div id="fig3"></div>
+            <div id="fig4"></div>
+            <div id="fig5"></div>
+            <div id="fig6"></div>
+            <div id="fig7"></div>
+            <div id="fig8"></div>
+            <div id="fig9"></div>
+            <div id="fig10"></div>
+            <div id="fig11"></div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    <!-- Chatbot -->
+    <div id="chatb">
+        <img src="images_icons/chat.png" alt="Stationary Image" id="chatbot">
+    </div>
+    <div class="chatbox">
+        <div id="exit-chat"></div>
+        <div id="side_view">Welcome</div>
+        <div id="chat-box1">
+            <div id="textbox">Speak to Perform Action</div>
+            <div class="listenicon"></div>
+        </div>
+        <div class="chatbtns">
+
+        </div>
+        <div id="clear"></div>
+        <div>
+
+            <!-- //maindetails   -->
+        </div>
+    </div>
+    <div id="inf-details">
+        <div id="i1">
+            <p class="p1"> <span class="p-head">OverView</span><br>
+                The project that integrates current weather details, crop-recommendation datasets, and soil
+                information
+                offers numerous
+                benefits to the agricultural sector. By providing real-time weather updates, farmers can make
+                timely
+                decisions to
+                protect their crops from adverse weather conditions, thereby reducing potential losses. The
+                crop-recommendation dataset,
+                which leverages data on soil characteristics, historical crop performance, and prevailing
+                weather
+                patterns, helps
+                farmers select the most suitable crops for their land, optimizing yields and resource usage.
+        </div>
+
+        <div id="i2">
+            <p class="p1"> <span class="p-head">Our Vision</span><br>
+                The vision of this agriculture-focused project is to revolutionize farming by harnessing the
+                power of
+                data and
+                technology. By providing real-time weather updates, comprehensive crop-recommendation datasets,
+                and
+                detailed soil
+                information, the project aims to empower farmers with actionable insights. This will enable them
+                to make
+                informed
+                decisions, optimize crop yields, and manage resources more efficiently. The ultimate goal is to
+                foster
+                sustainable
+                agricultural practices, enhance food security, and improve the livelihoods of farmers.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="ftr1"></div>
+        <div id="ftr2"></div>
+        <div id="ftr3">
+            <div class="copy-f">Click To Get More Details</div>
+            <div id="f-list">
+                <ul>
+                    <li>
+                        <div id="f-weather" class="f-btns">Upcoming Weather Details</div>
+                    </li>
+                    <li>
+                        <div id="f-soil" class="f-btns">Soil Information</div>
+                    </li>
+                    <li>
+                        <div id="f-analyse" class="f-btns">All Crops Analysis</div>
+                    </li>
+                    <li>
+                        <div id="f-other" class="f-btns">Environment details</div>
+                    </li>
+            </div>
+            </ul>
+            <div class="copy-f1">Made With &hearts; by BHISHAM</div>
+        </div>
+        <div id="ftr4"></div>
+        <div id="ftr5"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="weather.js"></script>
+    <script src="soil.js"></script>
+</body>
+
+</html>

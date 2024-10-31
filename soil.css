@@ -1,0 +1,510 @@
+.soil {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+    z-index: 20;
+
+}
+
+.show {
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.vis-show {
+    visibility: visible;
+}
+
+.vis-hidden {
+    visibility: hidden;
+}
+
+#h-soil {
+    display: flex;
+    background-color: #00246B;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.latlong {
+    display: inline-flex;
+    /* border: 2px, solid grey; */
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+#lat {
+    display: inline-flex;
+    border: 2px, solid grey;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#long {
+    display: inline-flex;
+    border: 2px, solid grey;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.soil-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.soil-content {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00246B;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soil-con {
+    display: flex;
+    background-color: white;
+    height: 490px;
+    width: 490px;
+    border-radius: 10px;
+    color: black;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    column-gap: 20px;
+    align-items: center;
+}
+
+#date-soil,
+#moisture,
+#t0,
+#t10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px, solid grey;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#s-btns {
+    display: flex;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+#b1,
+#b2,
+#b3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+
+}
+
+#advanced-details {
+    display: flex;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 165px;
+
+}
+
+#soil7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    margin-left: 400px;
+
+}
+
+/* Main CSS code for All Crops Analysis*/
+
+.cropAnalyse {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+    z-index: 25;
+
+}
+
+.show {
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+#heading-analysis {
+    display: flex;
+    background-color: #00246B;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+#Crop{
+    width:fit-content;
+    margin-left:170px;
+}
+.figs {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#fig1 {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 85%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_1.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig2 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 85%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_2.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig3 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 85%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_3.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig4 {
+    display: flex;
+    justify-content: center;
+    height: 1300px;
+    width: 90%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_4.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig5 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 85%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_5.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig6 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 85%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_6.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig7 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 85%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_7.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig8 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 86%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_8.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig9 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 86%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_9.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig10 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 86%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_10.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#fig11 {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 86%;
+    border: 2px solid #00246B;
+    background-image: url("Soil_Analysis_images/Figure_11.png");
+    background-size: cover;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#analysis-exit {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+h1 {
+    display: flex;
+    background-color: #00246B;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+h2 {
+    color: #4682B4;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 20px;
+}
+
+.content {
+    text-align: left;
+}
+
+.highlight {
+    color: #B22222;
+    font-weight: bold;
+}
+
+/* Existing Styles */
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .cropAnalyse {
+        width: 90%;
+        height: 90%;
+    }
+
+    #heading-analysis {
+        font-size: 1.5em;
+    }
+
+    #fig1,
+    #fig2,
+    #fig3,
+    #fig4,
+    #fig5,
+    #fig6,
+    #fig7,
+    #fig8,
+    #fig9,
+    #fig10,
+    #fig11 {
+        width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    pre {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cropAnalyse {
+        width: 85%;
+        height: 85%;
+    }
+
+    #heading-analysis {
+        font-size: 1.2em;
+    }
+
+    #fig1,
+    #fig2,
+    #fig3,
+    #fig4,
+    #fig5,
+    #fig6,
+    #fig7,
+    #fig8,
+    #fig9,
+    #fig10,
+    #fig11 {
+        width: 95%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    pre {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cropAnalyse {
+        width: 80%;
+        height: 80%;
+    }
+
+    #heading-analysis {
+        font-size: 1em;
+    }
+
+    #fig1,
+    #fig2,
+    #fig3,
+    #fig4,
+    #fig5,
+    #fig6,
+    #fig7,
+    #fig8,
+    #fig9,
+    #fig10,
+    #fig11 {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    pre {
+        font-size: 14px;
+    }
+
+    .content {
+        text-align: center;
+    }
+}
