@@ -37,21 +37,17 @@ chances of rain.
 HTML, CSS, JAVASCRIPT( to show the details on web), PYTHON libraries(Pandas, Matplotlib, seaborn) for making data plots.
 Openweathermap API(to show current weather Data), Openmeteo API(to show future weather forecasts), Agromonitor API (for showing soil details),AQICN For AIr Quality Indexing.
 
+![image copy](https://github.com/user-attachments/assets/8aea15ea-df04-4f8f-9eb9-354771cdfde5)
+![image copy 8](https://github.com/user-attachments/assets/59edf245-d5e1-430d-bf97-4be8de883412)
+![image copy 7](https://github.com/user-attachments/assets/23f5e6c8-5110-4cd5-93ab-1540d793a9c9)
+![image copy 6](https://github.com/user-attachments/assets/c15c63ec-89fd-4307-81d4-f14414debeae)
+![image copy 5](https://github.com/user-attachments/assets/37b74e82-b262-4bb6-84e7-7fa70b1c4777)
+![image copy 4](https://github.com/user-attachments/assets/ca811b2a-c1ab-418c-87ae-b4a0b3cac31c)
+![image copy 3](https://github.com/user-attachments/assets/8c6f9a59-9a76-4e30-a88e-8de32cd55083)
+![image copy 2](https://github.com/user-attachments/assets/804b2d01-cf1b-483a-846b-99e872eebf40)
+![{FBC7C6D6-0843-47E1-8507-C51745E56437}](https://github.com/user-attachments/assets/0df3e792-5533-4863-9a2e-007207d1b6d6)
+![{B9C9A464-E45B-4846-A303-1335BD7E7F6B}](https://github.com/user-attachments/assets/f4158db7-1866-4b97-ad20-08ea9677f7b0)
+![{9C7141CC-A2CD-413F-8B69-A0661F449EFF}](https://github.com/user-attachments/assets/6a970ecd-5048-4269-80cf-850b66c3ee2d)
+![{5AA68773-8E3D-4AC6-B8CA-1B9370840D76}](https://github.com/user-attachments/assets/7128defc-58cc-4b84-b742-c1cbe726daaf)
 
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i11.png)
-
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i1.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i2.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i3.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i4.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i5.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i6.png)
-
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i7.png)
-
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i8.png)
-
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i9.png)
-
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\i10.png)
 
