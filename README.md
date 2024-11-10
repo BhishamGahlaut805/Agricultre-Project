@@ -37,20 +37,14 @@ chances of rain.
 HTML, CSS, JAVASCRIPT( to show the details on web), PYTHON libraries(Pandas, Matplotlib, seaborn) for making data plots.
 Openweathermap API(to show current weather Data), Openmeteo API(to show future weather forecasts), Agromonitor API (for showing soil details),AQICN For AIr Quality Indexing.
 
-
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\{5AA68773-8E3D-4AC6-B8CA-1B9370840D76}.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\{9C7141CC-A2CD-413F-8B69-A0661F449EFF}.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\{B9C9A464-E45B-4846-A303-1335BD7E7F6B}.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\{FBC7C6D6-0843-47E1-8507-C51745E56437}.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image copy 2.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image copy 4.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image copy 5.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image copy 6.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image copy 7.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image copy 8.png)
-![Alt text](Agriculture_Final\Agromonitor-Agriculture_Beneficial-App\ScreenShots_Project\image.png)
-
-
-
-
-
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/{5AA68773-8E3D-4AC6-B8CA-1B9370840D76}.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/{9C7141CC-A2CD-413F-8B69-A0661F449EFF}.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/{B9C9A464-E45B-4846-A303-1335BD7E7F6B}.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/{FBC7C6D6-0843-47E1-8507-C51745E56437}.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image%20copy%202.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image%20copy%204.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image%20copy%205.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image%20copy%206.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image%20copy%207.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image%20copy%208.png)
+![Alt text](Agriculture_Final/Agromonitor-Agriculture_Beneficial-App/ScreenShots_Project/image.png)
