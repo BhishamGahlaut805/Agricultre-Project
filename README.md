@@ -51,6 +51,5 @@ Openweathermap API(to show current weather Data), Openmeteo API(to show future w
 ![{FBC7C6D6-0843-47E1-8507-C51745E56437}](https://github.com/user-attachments/assets/0df3e792-5533-4863-9a2e-007207d1b6d6)
 ![{B9C9A464-E45B-4846-A303-1335BD7E7F6B}](https://github.com/user-attachments/assets/f4158db7-1866-4b97-ad20-08ea9677f7b0)
 ![{9C7141CC-A2CD-413F-8B69-A0661F449EFF}](https://github.com/user-attachments/assets/6a970ecd-5048-4269-80cf-850b66c3ee2d)
-![{5AA68773-8E3D-4AC6-B8CA-1B9370840D76}](https://github.com/user-attachments/assets/7128defc-58cc-4b84-b742-c
 
 
